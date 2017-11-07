@@ -1,0 +1,36 @@
+body {
+    background: #333333;
+    
+}
+.block {
+    background: #88B7D5;
+    color: #FFF;
+    border: 4px solid #C2E1F5;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left:10px;
+    right: 10px;
+}
+.block > span {
+    display: inline-block;
+    line-height: 60px;
+}
+.block:after, .block:before {
+    content: "";
+    border-style: solid;	
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+}
+.block:after {
+    border-color: transparent transparent #88B7D5 transparent;
+    border-width: 30px;
+    margin-left: -30px; 
+}
+.block:before {
+    border-color: transparent transparent #C2E1F5 transparent;
+    border-width: 36px;
+    margin-left: -36px;
+}

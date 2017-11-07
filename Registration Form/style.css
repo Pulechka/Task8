@@ -1,0 +1,52 @@
+.registration {
+    width: 400px;
+    background-color: #0690CF;
+    border: 3px solid #0075B2;
+    margin: 20px;
+}
+
+.registration > h2 {
+    color: #fff;
+    font: normal 24px Arial;
+    padding: 20px 20px 14px;
+}
+
+.bottom_line {
+    border-bottom: 1px solid #fff;
+}
+
+.user_input label {
+    display: block;
+}
+
+.label_font {
+    font: normal 16px Arial;
+    color: #fff;
+}
+
+.user_input input {
+    width: 320px;
+}
+
+.half_width input {
+    width: 147px;
+}
+
+.user_input {
+    margin: 30px 0 0 20px;
+}
+
+.half_width {
+    float: left;
+}
+
+.button {
+    background-color: #FFDF7F;
+    border: 0;
+    width: 80px;
+    height: 25px;
+}
+
+.send_button {
+    margin: 30px 0 20px 20px;
+}

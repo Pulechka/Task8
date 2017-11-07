@@ -1,0 +1,42 @@
+body {
+    background: black;
+}
+.article {
+    margin: 10px 50px;
+    background: -webkit-linear-gradient(white, #DDD);
+    background: -o-linear-gradient(white, #DDD);
+    background: -moz-linear-gradient(white, #DDD);
+    background: -ms-linear-gradient(white, #DDD);
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #FFF;
+    position: relative;
+}
+.header {
+    color: #FFB163;
+    font: bold 26px Arial;
+    padding: 5px;   
+    display: inline-block;
+    background: black;
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+.header:after {
+    content: "";
+    position: absolute;
+    left: 82px; 
+    top: 0;
+    border: 20px solid transparent;	
+    border-left: 20px solid black;
+    border-top: 20px solid black;
+}
+.article > p {
+    font: normal 14px Arial;
+    line-height: 1.3;
+    padding: 10px 10px;
+    clear: both;
+}
+.article > p > sup {
+    vertical-align: 0.4em;
+    font-size: 0.85em;
+}

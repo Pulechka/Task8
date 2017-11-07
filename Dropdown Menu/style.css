@@ -1,0 +1,64 @@
+.menu {
+    line-height: 1.2; 
+    margin: 20px;
+}
+
+.menu > li {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.menu > li > a{
+    color: #0000CF; /*Ссылки главного меню*/
+    padding: 3px;
+}
+
+.menu > li:hover > a { /*Ссылка главного меню при наведении*/
+    color: black;
+    text-decoration: none;
+}
+
+.menu .dropdown > li > a { /*Ссылка в всплывающем меню*/
+    display: block;
+    color: #5700EE;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.menu .dropdown li:hover a { /*Ссылка в всплывающем меню при наведении*/
+    color: #FFF;
+    text-decoration: none;
+    background: #37ABFF;
+}
+
+
+.menu > li:hover .dropdown {
+    display: block; /*Показать всплывающее меню при наведении на пункт главного меню*/
+}
+
+.menu > li:hover { /*Пукнт главного меню при наведении*/
+    box-shadow: 2px -2px 10px -2px #B9B9B9, 
+                -2px -2px 10px -2px #B9B9B9;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu > li:hover:after { /*Блок для перекрытия лении тени между меню и подменю*/
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 23px;
+    display: block;
+    width: 100%;
+    border-top: 12px solid #FFF;
+}
+
+.menu .dropdown { /*Блок всплывающего меню*/
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 0;
+    box-shadow: 0px 0px 10px 2px #B9B9B9;
+    padding: 5px;
+}

@@ -1,0 +1,65 @@
+body {
+    background: #4E6379;
+}
+
+.hosting {
+    display: table;
+    background: #FFF;
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 25px 40px #303D4B;
+    padding: 10px 0;
+}
+
+.hosting_item {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #D9D9D9;
+    width: 200px;
+}
+
+.hosting_item:last-child {
+    border: 0;
+}
+
+.hosting_item > h5 {
+    color: #F56332;
+    font: bold 15px "ms sans serif";
+    text-align: center;
+    padding: 15px 0;
+}
+
+.hosting_item > span {
+    text-align: center;
+    font: normal 13px "ms sans serif";
+    padding-bottom: 10px;
+    display: block;
+}
+.button {
+    background: #F56332;
+    color: #FFF;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.icon {
+    height: 42px;
+    width: 62px;
+    background-image: url(hosting.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.virtual {
+    background-position: top;
+}
+
+.cloud {
+    background-position: center;
+}
+
+.server {
+    background-position: bottom;
+}

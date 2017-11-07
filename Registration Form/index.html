@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form class="registration" action="#">
+           
+            <h2 class="bottom_line">Регистрация</h2> 
+              
+            <div class="user_input">
+                <label class="label_font" for="email">E-mail</label>
+                <input id="email" type="email" required>
+            </div>
+                
+            <div class="user_input half_width">
+                <label class="label_font" for="password">Пароль</label>
+                <input id="password" type="password" required>
+            </div>
+                
+            <div class="user_input half_width">
+                <label class="label_font" for="password_repeat">Еще раз</label>
+                <input id="password_repeat" type="password" required>
+            </div>
+                
+            <input class="button send_button" id="send" type="submit" value="Отправить">
+            
+        </form>
+</body>
+</html>
